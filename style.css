@@ -33,7 +33,7 @@ header {
 }
 
 
-a img{
+.row a img{
   float: left;
   padding:20px;
 }
@@ -49,10 +49,11 @@ header ul li{
 .border{
   padding: 20px 10px;
 }
-/* inserisco la barra divisoria - usando ::after -
-in questo modo inserisco
-un contenuto ("", vuoto o no) e gli dico
-come comportarsi (display)*/
+/* inserisco la barra divisoria
+- usando ::after -
+            in questo modo inserisco
+            un contenuto ("", vuoto o no) e gli dico
+            come comportarsi (display)*/
 .border:not(:first-of-type)::after{
   margin: 0;
   padding-left: 5px;
@@ -91,16 +92,18 @@ h1, h6{
   padding: 20px;
 
 }
-.title img{
-  display: inline-block;
+
+.store{
+  width: 320px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.img1{
-  margin-left: 25%;
+.store a img{
+  width: 150px;
+  height: auto;
+  display:inline;
 }
-/* section {
-  background: gray;
-  border: solid 1px #000;
-} */
 
 .col {
   height: 100px;
