@@ -203,7 +203,7 @@ h1, h6{
   background-image: url("img/firenze.jpeg");
 }
 
-.duecol{
+.duecolimg{
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,12 +213,42 @@ h1, h6{
   padding: 50px;
   margin: 40px auto;
 }
-.duecol a {
+.duecolimg a {
   color: white;
   text-decoration: none;
 }
-.duecol a:hover{
+.duecolimg a:hover{
   text-decoration: underline;
+}
+
+
+/* sez 5 */
+
+.collage{
+  background-image: url("img/collage.jpeg");
+  position: relative;
+}
+
+.social{
+  width: 40%;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.social h2{
+  text-align: center;
+  margin-top: 50px;
+}
+.socialicons{
+  position: relative;
+  left: 25%;
+}
+.socialicons i{
+  margin: 10px;
 }
 /*footer*/
 footer {
