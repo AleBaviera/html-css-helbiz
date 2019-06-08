@@ -227,6 +227,7 @@ h1, h6{
 .collage{
   background-image: url("img/collage.jpeg");
   position: relative;
+  margin-bottom: 40px;
 }
 
 .social{
@@ -252,6 +253,47 @@ h1, h6{
 }
 /*footer*/
 footer {
-  height: 150px;
   background: #000;
+  position: relative;
+}
+footer::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.top{
+  margin-bottom: 20px;
+}
+.col4{
+  width: 25%;
+  padding: 30px;
+  position: relative;
+  float:left;
+}
+.center{
+  height: 100px;
+  margin-bottom: 20px;
+}
+.col4 h5,
+.colsoc i{
+  color:white;
+  display: inline;
+
+}
+.col4 a{
+  display: block;
+  color: lightgray;
+  margin: 20px 10;
+  font-size: 15px;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.bottom img{
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 20px 0;
 }
