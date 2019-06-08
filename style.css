@@ -28,6 +28,15 @@ body{
   width: 45%;
 
 }
+/* contenitore sezione con img sfondo */
+.sectionimg{
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 /*header*/
 header {
@@ -75,11 +84,8 @@ header ul li{
 
 
 .sez0{
-  width: 100%;
-  height: 400px;
+
   background-image: url("img/bici.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .title{
   width: 60%;
@@ -110,7 +116,7 @@ h1, h6{
   display:inline;
 }
 
-
+/* sez1 */
 .smoky{
   background-color: #fafafa;
   text-align: center;
@@ -126,9 +132,47 @@ h1, h6{
  .prodotto{
    width: 300px;
    height: auto;
- }
+}
 
 
+
+ /* sezione due */
+ .sez2{
+   background-image: url("img/bimbo.jpeg");
+   position:relative;
+}
+
+.iphone{
+  width: 300px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,0);
+}
+
+.work{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto;
+  float: left;
+}
+
+.work h2{
+  margin-top: 300px;
+  margin-left: 40px;
+  padding: 10px 0;
+}
+.work h3,p{
+  margin-left: 40px;
+  padding: 10px 0;
+}
+
+/* sezione 3 */
+/* .sez3{
+
+} */
 
 .monopattinocol{
   float: right;
@@ -144,11 +188,13 @@ h1, h6{
   margin-right: 10%;
 }
 .monopattino{
-/*  height:400px;*/
   background-image:url("img/monopattino.png");
   background-size:cover;
+
 }
 
+
+/* sez4 */
 .app{
   background-image: url("img/cell.jpeg");
 
